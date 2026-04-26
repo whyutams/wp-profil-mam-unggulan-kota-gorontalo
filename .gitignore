@@ -1,0 +1,16 @@
+# 1. Abaikan file inti WordPress 
+wp-admin/
+wp-includes/
+*.php
+
+# 2. Abaikan folder media
+wp-content/uploads/
+
+# 3. Abaikan semua file SQL...
+*.sql
+# ...KECUALI file database 
+!db_sekolah.sql
+
+# 4. Abaikan file sampah bawaan OS Windows/Mac
+.DS_Store
+Thumbs.db
