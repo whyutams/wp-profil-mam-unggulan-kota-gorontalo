@@ -4,7 +4,7 @@ wp-includes/
 *.php
 
 # 2. Abaikan folder media
-wp-content/uploads/
+# wp-content/uploads/
 
 # 3. Abaikan semua file SQL...
 *.sql
